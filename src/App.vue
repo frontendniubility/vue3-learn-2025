@@ -1,20 +1,12 @@
 <template>
-  <div class="app">
-    <h2>我是App组件{{ x }}</h2>
-    <Hello/>
-    <Child/>
-  </div>
+  <Person/>
 </template>
 
-<script setup lang="ts" name="App">
-  import Child from './Child.vue'
-</script>
+<script lang="ts">
+  import Person from './components/Person.vue'
 
-<style>
-  .app {
-    background-color: #ddd;
-    border-radius: 10px;
-    padding: 10px;
-    box-shadow: 0 0 10px;
+  export default {
+    name:'App', //组件名
+    components:{Person} //注册组件
   }
-</style>
+</script>

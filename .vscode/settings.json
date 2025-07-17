@@ -1,0 +1,12 @@
+{
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.donotShowInfoMsg": false,
+    "vue.autoInsert.dotValue": true,
+    "vue.format.script.initialIndent": true,
+    "vue.format.style.initialIndent": true,
+    "vue.inlayHints.destructuredProps": true,
+    "vue.inlayHints.inlineHandlerLeading": true,
+    "vue.inlayHints.missingProps": true,
+    "vue.inlayHints.optionsWrapper": true,
+    "vue.inlayHints.vBindShorthand": true
+}
