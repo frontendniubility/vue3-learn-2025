@@ -7,5 +7,13 @@
     {
       "path": "./tsconfig.app.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "composite": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+  }
 }

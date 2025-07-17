@@ -8,9 +8,15 @@
     "playwright.config.*"
   ],
   "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ES5"
+    ],
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "types": ["node"]
+    "types": [
+      "node"
+    ]
   }
 }

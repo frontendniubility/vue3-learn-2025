@@ -8,5 +8,10 @@
     "vue.inlayHints.inlineHandlerLeading": true,
     "vue.inlayHints.missingProps": true,
     "vue.inlayHints.optionsWrapper": true,
-    "vue.inlayHints.vBindShorthand": true
+    "vue.inlayHints.vBindShorthand": true,
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.alwaysShowBacklinksInPreview": true,
+    "markdown-preview-enhanced.enableExtendedTableSyntax": false,
+    "markdown-preview-enhanced.enableHTML5Embed": false,
+    "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false
 }
